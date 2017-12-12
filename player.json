@@ -1,0 +1,22 @@
+[ {
+  "id" : 1,
+  "firstName" : "Toni",
+  "lastName" : "Kroos",
+  "dateOfBirthday" : "1987-02-02",
+  "posistions" : [ {
+    "id" : 1,
+    "name" : "FR"
+  } ]
+}, {
+  "id" : 2,
+  "firstName" : "Leo",
+  "lastName" : "Messi",
+  "dateOfBirthday" : "1987-02-02",
+  "posistions" : [ {
+    "id" : 2,
+    "name" : "R"
+  }, {
+    "id" : 1,
+    "name" : "FR"
+  } ]
+} ]

@@ -1,0 +1,23 @@
+<list>
+  <models.Player id="1">
+    <firstName>Toni</firstName>
+    <lastName>Kroos</lastName>
+    <dateOfBirthday>1987-02-02</dateOfBirthday>
+    <posistions>
+      <models.Position id="1">
+        <name>FR</name>
+      </models.Position>
+    </posistions>
+  </models.Player>
+  <models.Player id="2">
+    <firstName>Leo</firstName>
+    <lastName>Messi</lastName>
+    <dateOfBirthday>1987-02-02</dateOfBirthday>
+    <posistions>
+      <models.Position id="2">
+        <name>R</name>
+      </models.Position>
+      <models.Position reference="../../../models.Player/posistions/models.Position"/>
+    </posistions>
+  </models.Player>
+</list>
